@@ -181,18 +181,19 @@ h1 {
 #mensaje {
     font-size: 18px;
     color: #ffc107; /* Amarillo brillante para el mensaje principal */
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 #mensaje1,
 #mensaje2,
 #mensaje3 {
-    margin: 30px 0;
+    margin: 20px 0;
 }
 
 button {
     font-family: 'Bangers', cursive;
-    background-color: #4caf50; /* Verde para los botones */
+    background-color: transparent; /* Verde para los botones */
+    box-shadow: 0 0 10px rgb(255, 255, 255);
     color: #ffffff;
     border: none;
     padding: 10px 20px;
@@ -213,11 +214,21 @@ button {
 }
 
 button:hover {
-    background-color: #388e3c; /* Verde oscuro al pasar el ratón */
+    background-color: transparent; /* Verde para los botones */
 }
 
 .additional-container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+}
+
+#randomMessagesButtons{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 15px;
 }
 
 #randomMessages {
