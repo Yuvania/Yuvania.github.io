@@ -16,9 +16,9 @@ body {
 .context {
     width: 100%;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -55%);
     display: flex;
     flex-direction: column;
     justify-content: center;
