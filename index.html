@@ -1,0 +1,42 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="style.css">
+    <title>Mensaje de Bienvenida</title>
+</head>
+<body>
+  <div class="context">
+           <div class="container">
+        <p id="saludo"></p>
+        <p id="mensaje1"></p>
+        <p id="mensaje2"></p>
+        <p id="mensaje3"></p>
+    </div>
+    <div class="additional-container">
+        <p id="fixedMessage">A continuación, una serie de mensajes que pueden darte un poquitin de risa jajaja <3</p>
+        <div id="randomMessages"></div>
+        <button id="prevButton">Anterior</button>
+        <button id="nextButton">Siguiente</button>
+    </div>
+    </div>
+    <div class="area" >
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
+    <audio id="audioPlayer" src="ikissedagirl.mp3" preload="auto"></audio>
+    <button id="audioControl">Play</button>
+    <script src="script.js"></script>
+</body>
+</html>
