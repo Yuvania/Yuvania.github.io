@@ -68,20 +68,22 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // Mensajes aleatorios
       var randomMessages = [
-        "Si ser sexy fuera un delito tendrías que pasar el resto de tu vida en la cárcel",
         "Tienes una sonrisa muy bonita",
         "Creo que tienes unos ojos muy bonitos también",
         "Creo que es lindo el cómo te esfuerzas por tu pequeña",
         "Que bonita eres",
         "Lamento no haberte mirado más, cuando pude hacerlo",
-        "Estoy haciendo el catálogo de los mejores restaurantes de Medellín, ¿me ayudas a completarlo? xD",
-        "Ah, ¿también eres de los que creen eso de que 3 son multitud? Pienso lo mismo. ¿Quedamos entonces solo nosotr*s 2 alguna vez?",
-        "Perdona mi impuntualidad: me hubiera gustado llegar antes a tu vida jajaja ;)",
+        "Estoy haciendo el catálogo de los mejores restaurantes de Medellín, ¿me ayudas a completarlo? jajaja",
         "Quería llevarte al cine, pero no permiten entrar con dulces xD",
-        "El megalodón se extinguió, pero veo que tu madre logró dar vida al megabombón",
-        "Hola, perdona, ¿en qué parada de metro debo bajarme para llegar a gustarte?",
-        "¿Qué alarma me tengo que poner para despertarme contigo?",
-        "Ojalá fuera profesora para pasarte de tercero a mi cuarto. JAJAJAJA"
+        "Tienes un cabello muy bonito",
+        "El megalodón se extinguió, pero veo que tu madre logró dar vida al megabombón jajaja",
+        "¿En qué parada de metro debo bajarme para llegar a gustarte? JAJAJA",
+        "Tienes lindos labios",
+        "El acento de medellin es lo mejor",
+        "Creo que bailas muy bien",
+        "Ojalá fuera profesora para pasarte de tercero a mi cuarto. sorry JAJAJAJA",
+        "Creo que te ves muy radiante",
+        "Te me haces una persona muy amable"
     ];
 
         function showNextMessage() {

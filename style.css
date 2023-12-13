@@ -164,7 +164,7 @@ body {
 }
 
 .container, .additional-container {
-    width: 90%;
+    width: 80%;
     max-width: 1000px;
     padding: 20px;
     border-radius: 8px;
@@ -232,10 +232,15 @@ button:hover {
 }
 
 #randomMessages {
-    background-color: #ff7b25; /* Naranja brillante para los mensajes aleatorios */
+    background: linear-gradient(45deg, #b73476, #4e54c8); /* Gradiente de rosa a morado */
     padding: 10px;
     margin-top: 20px;
+    padding: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 30px;
     border-radius: 8px;
+    box-shadow: 0 0 10px rgba(8, 0, 5, 0.5); /* Borde con sombra transparente */
 }
 
 /* Posiciona el botón en la esquina superior derecha */
