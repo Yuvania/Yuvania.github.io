@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Esperar 15 segundos antes de mostrar el tercer mensaje
         setTimeout(function() {
-            mensaje3Element.textContent = "Yo sé, yo sé que hay formas más fáciles de decir esto, pero se me hizo gracioso hacer una página web.";
+            mensaje3Element.textContent = "Sé que hay formas más fáciles de decir buenos dias, pero creo que usar una página web es gracioso jajaja.";
         }, 15000);
     }
 
