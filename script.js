@@ -24,11 +24,11 @@ document.addEventListener("DOMContentLoaded", function() {
         // Definir el saludo según la hora del día
         var saludo;
         if (horaActual < 12) {
-            saludo = "Buenos días.";
+            saludo = "Buenos días preciosa";
         } else if (horaActual < 18) {
-            saludo = "Buenas tardes.";
+            saludo = "Buenas tardes preciosa";
         } else {
-            saludo = "Buenas noches.";
+            saludo = "Buenas noches preciosa";
         }
 
         // Mostrar saludo inicial
@@ -39,17 +39,17 @@ document.addEventListener("DOMContentLoaded", function() {
     function showMensajes() {
         // Esperar 5 segundos antes de mostrar el primer mensaje
         setTimeout(function() {
-            mensaje1Element.textContent = "Hey Nati!";
+            mensaje1Element.textContent = "Por cierto, te he pensado todo el dia!";
         }, 5000);
 
         // Esperar 10 segundos antes de mostrar el segundo mensaje
         setTimeout(function() {
-            mensaje2Element.textContent = "Espero que hayas o estés pasando un bonito día!";
+            mensaje2Element.textContent = "Asi que hice esto porque...";
         }, 10000);
 
         // Esperar 15 segundos antes de mostrar el tercer mensaje
         setTimeout(function() {
-            mensaje3Element.textContent = "Sé que hay formas más fáciles de decir buenos dias, pero creo que usar una página web es gracioso jajaja.";
+            mensaje3Element.textContent = "Decirtelo de esta forma se me hizo original ;)";
         }, 15000);
     }
 
@@ -68,22 +68,20 @@ document.addEventListener("DOMContentLoaded", function() {
 
       // Mensajes aleatorios
       var randomMessages = [
-        "Tienes una sonrisa muy bonita",
-        "Creo que tienes unos ojos muy bonitos también",
-        "Creo que es lindo el cómo te esfuerzas por tu pequeña",
-        "Que bonita eres",
-        "Lamento no haberte mirado más, cuando pude hacerlo",
-        "Estoy haciendo el catálogo de los mejores restaurantes de Medellín, ¿me ayudas a completarlo? jajaja",
-        "Quería llevarte al cine, pero no permiten entrar con dulces xD",
-        "Tienes un cabello muy bonito",
-        "El megalodón se extinguió, pero veo que tu madre logró dar vida al megabombón jajaja",
-        "¿En qué parada de metro debo bajarme para llegar a gustarte? JAJAJA",
-        "Tienes lindos labios",
-        "El acento de medellin es lo mejor",
-        "Creo que bailas muy bien",
-        "Ojalá fuera profesora para pasarte de tercero a mi cuarto. sorry JAJAJAJA",
-        "Creo que te ves muy radiante",
-        "Te me haces una persona muy amable"
+        "Que placer es tenerte en mi vida",
+        "Se que esto lleva poco tiempo, pero contigo todo se siente mejor",
+        "Me gusta todo de ti, incluso aquello que crees que es tu debilidad",
+        "Diossss, que bonita eres",
+        "Me encantan tus besos",
+        "Ultimamente mi lugar favorito es en tus brazos",
+        "Creo que tu sonrisa se ha convertido en mi refugio.",
+        "Tu me has quitado las ganas de conocer a alguien más",
+        "El primer beso mas que con la boca, ya te lo habia dado con la mirada",
+        "Me gusta como hueles",
+        "Me encanta tu voz y el sonido de tu risa",
+        "Quiero volver a dormir contigo (no importa cuando lo leas, aplica)",
+        "Me gusta lo consentida que eres",
+        "Quiero estar ahi cuando necesites un abrazo, quiero estar en tus momentos malos"
     ];
 
         function showNextMessage() {
